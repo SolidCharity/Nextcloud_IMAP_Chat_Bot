@@ -1,0 +1,13 @@
+production:
+    imap_host: xyz00.hostsharing.net
+    imap_user: xyz00-myuser
+    imap_pwd: topsecret
+
+    sqlite_file: notifications_imap.sqlite3
+
+    nc_url: https://cloud.example.org
+    nc_user_display_name: "IMAP Bot"
+    nc_user: My.Bot
+    nc_pwd: anothertopsecret
+    nc_channel: 1234abcd
+
