@@ -217,6 +217,10 @@ def main():
                 From = From.decode(encoding)
 
             post['id'] = msg["Message-Id"]
+
+            if alreadyNotified(post['id']):
+                continue
+
             post['date'] = msg["Date"]
             post['subject'] = subject
             post['from'] = From
